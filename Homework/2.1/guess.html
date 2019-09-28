@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Guess the number</title>
+    <style>
+        .green-text {
+            color: green
+        }
+
+        .red-text {
+            color: red
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Guess the secret number</h1>
+    <form>
+        <span>Enter a value between 1 and 100:</span><input id="guess" type="number" min="1" max="100" step="1">
+        <input id="check" type="button" value="Check your answer">
+    </form>
+    <p id="result" class="red-text"></p>
+    <script src="./guess.js"></script>
+</body>
+
+</html>
