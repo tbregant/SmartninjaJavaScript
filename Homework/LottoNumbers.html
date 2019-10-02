@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Lotto numbers</title>
+</head>
+
+<body>
+  <h1>Lotto generator</h1>
+  <label for="count">How many numbers would you like?</label>
+  <input id="count" type="number" min="0" /><br />
+  <p>
+    Choose a range in which numbers should be generated (0 is not allowed)
+  </p>
+  <span>From:</span>
+  <input id="minNumber" type="number" min="1" />
+  <span>To:</span>
+  <input id="maxNumber" type="number" min="1" />
+  <p><button id="generate">Generate numbers</button></p>
+  <p id="result"></p>
+
+  <script src="./LottoNumbers.js"></script>
+</body>
+
+</html>
